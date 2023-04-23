@@ -1,0 +1,48 @@
+footer {
+  background-color: #F8C445;
+  color: black;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer .social-links a{
+  color: black;
+  text-decoration: none;
+  font-size: 5rem;
+  margin: 1rem;
+  /* background-color: white; */
+}
+
+footer h4{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.social-links a:hover{
+  color: blue;
+}
+
+footer button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* padding: 15px; */
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.blog-link{
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog-link:hover{
+  color: blue;
+  
+}

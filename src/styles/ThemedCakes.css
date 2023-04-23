@@ -1,0 +1,17 @@
+.gallery{
+    background-color: #F8C445;
+    max-width: 100%;
+}
+
+.gallery-title{
+    font-size: 66px;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-stroke: 2px white;
+    /* for webkit-based browsers like Chrome */
+    text-stroke: 2px #92DFC2;
+    /* for non-webkit-based browsers like Firefox */
+}
