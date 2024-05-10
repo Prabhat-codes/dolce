@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+#hero {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+}
+
+#hero button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+section {
+    padding: 50px;
+}
+
+#about {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#about .about-img {
+    width: 30%;
+}
+
+#about .about-img img {
+    height: 100%;
+    width: 100%;
+}
+
+#about .about-text {
+    width: 70%;
+    text-align: center;
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .service {
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+}
+
+#services .service img {
+    height: 100px;
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+
+#services .service h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#services .service p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about h2,
+#services h2,
+#portfolio h2,
+#contact h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio .cake-img {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+#portfolio .cake-img img {
+    height: 200px;
+    width: 100%;
+}
+
+#portfolio .cake-img p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#contact form button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+#cakes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cake-card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cake-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cake-card h3 {
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+}
+
+.cake-card p {
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+}
